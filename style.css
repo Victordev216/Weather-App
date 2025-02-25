@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./img/pexels-valeriya-10603038.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.first{
+    width: 66%;
+    height: 100vh;
+}
+.second{
+    width: 34%;
+    height: 100vh;
+    background-color: rgba(3, 3, 3,0.4);
+}
+.bottom-border-input {
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    padding: 5px;
+    outline: none;
+    font-size: 16px;
+    color: white;
+}
+
+/* .bottom-border-input::placeholder :hover {
+    color: white;
+    background: transparent;
+} */
+
+.three{
+    font-size: 200px;
+}
+.four{
+    width: 100%;
+    text-align: center;
+}
+.white-line {
+    border: none; 
+    height: 2px; 
+    background-color: white; 
+}
+.displ{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+.five{
+    width: 50%;
+}
+@media screen and (max-width: 800px){
+    body{
+        background-image: url('./img/pexels-valeriya-10603038.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        height: 120vh;
+    }
+    .first{
+        width: 80%;
+    
+    }
+    .second{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(3, 3, 3,0.4);
+        backdrop-filter: blur(100px);
+    }
+    .bottom-border-input {
+        border-bottom: 2px solid white; 
+    }
+    .three{
+        font-size: 150px;
+    }
+    .four{
+        width: 100%;
+        /* margin-left: 22px; */
+        text-align: start;
+        /* padding-top: 100px; */
+    }
+    .five{
+        width: 100%;
+    }
+}
